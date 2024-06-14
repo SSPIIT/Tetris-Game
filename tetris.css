@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #590d22;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+#tetris_canvas {
+    /* background-color: rgb(79, 1, 60); */
+    background-color: #590d22;
+    box-shadow: 1px 1px 15px 5px #3d0615;
+    border-radius: 5px;
+}
